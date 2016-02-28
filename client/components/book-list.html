@@ -1,0 +1,17 @@
+<template name="bookList">
+  {{#if dataReady}}
+    <ul class="list-unstyled book-list">
+      {{#each books}}
+        <li class="book {{#if read}}read{{/if}}">
+          <h3 class="book-title">{{title}}</h3>
+          <h4 class="book-title">{{author}}</h4>
+          <p>{{countBackDate createdAt}}</p>
+          <button type="button" class="btn btn-default" data-action="toggle-read">{{#unless read}}Read{{else}}Unread{{/unless}}</button>
+          <button type="button" class="btn btn-danger" data-action="delete-book">Delete</button>
+        </li>
+      {{/each}}
+    </ul>
+  {{else}}
+    {{> spinner}}
+  {{/if}}
+</template>

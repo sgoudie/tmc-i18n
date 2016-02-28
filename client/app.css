@@ -1,0 +1,35 @@
+.container {
+  padding-top: 40px;
+}
+
+.book-list {
+
+}
+
+
+.add-book-form {
+  margin-bottom: 40px;
+}
+
+.book-list .book {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #c3c3c3;
+  margin-bottom: 20px;
+}
+
+.book-list .book.read .book-title,
+.book-list .book.read .book-author {
+  text-decoration: line-through;
+}
+
+.btn-danger {
+  border-color: #d9534f;
+  background-color: #fff;
+  color: #d9534f;
+}
+
+.btn-danger::hover {
+  border-color: #d9534f;
+  background-color: #d9534f;
+  color: #fff;
+}
