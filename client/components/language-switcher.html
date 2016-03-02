@@ -1,0 +1,12 @@
+<template name="languageSwitcher">
+  <div class="dropup">
+    <button class="btn-link dropdown-toggle" type="button" id="setLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{_ "change_language"}}
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="setLanguage">
+      {{#each languages}}
+        <li><a href="#" data-action="change-language" data-language="{{code}}">{{labels.name}} {{#if equals code languageTag}}<i class="fa fa-check"></i>{{/if}}</a></li>
+      {{/each}}
+    </ul>
+  </div>
+</template>

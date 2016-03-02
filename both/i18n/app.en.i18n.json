@@ -1,14 +1,15 @@
 {
+  "change_language": "Change language",
   "header": {
     "title": "Read More",
     "description": "Build up your reading list."
   },
   "add_book": {
     "title_label": "Title",
-    "title_placeholder": "eg. Great Expectations",
+    "title_placeholder": "eg. Blink",
     "title_error_required": "Add a title",
     "author_label": "Author",
-    "author_placeholder": "eg. Charles Dickens",
+    "author_placeholder": "eg. Malcolm Gladwell",
     "author_error_required": "Add an author",
     "action_label": "Add Book",
     "action_loading": "Adding Book"

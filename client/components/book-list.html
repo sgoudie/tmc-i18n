@@ -1,5 +1,5 @@
 <template name="bookList">
-  {{#if dataReady}}
+  {{#if instance.dataReady.get}}
     <ul class="list-unstyled book-list">
       {{#each books}}
         <li class="book {{#if read}}read{{/if}}">

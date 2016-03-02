@@ -12,10 +12,6 @@ Template.bookList.onRendered(function () {
 
 Template.bookList.helpers({
 
-  dataReady() {
-    return Template.instance().dataReady.get();
-  },
-
   books() {
     const books = Books.find();
     if (books) return books;
@@ -27,7 +23,6 @@ Template.bookList.events({
 
   'click [data-action="toggle-read"]'() {
     const bookId = this._id;
-    console.log(bookId);
     Meteor.call('toggleRead', bookId);
   },
 
