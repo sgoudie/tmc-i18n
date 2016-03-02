@@ -17,6 +17,10 @@
   margin-bottom: 20px;
 }
 
+.book-list .book:last-child {
+  border: none;
+}
+
 .book-list .book.read .book-title,
 .book-list .book.read .book-author {
   text-decoration: line-through;
@@ -32,4 +36,10 @@
   border-color: #d9534f;
   background-color: #d9534f;
   color: #fff;
+}
+
+footer .container {
+  margin-top: 20px;
+  border-top: solid 1px #c3c3c3;
+  padding: 10px 0;
 }
