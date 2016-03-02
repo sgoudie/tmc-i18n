@@ -15,6 +15,8 @@
     "action_loading": "Adding Book"
   },
   "book_list": {
+    "unread_count": "__count__ unread book",
+    "unread_count_plural": "__count__ unread books",
     "read": "Read",
     "unread": "Unread",
     "delete": "Delete"

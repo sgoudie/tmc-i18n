@@ -15,6 +15,11 @@ Template.bookList.helpers({
   books() {
     const books = Books.find();
     if (books) return books;
+  },
+
+  unreadBooks() {
+    const bookCount = Books.find({ read: false }).count();
+    if (bookCount) return bookCount;
   }
 
 });

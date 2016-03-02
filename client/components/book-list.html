@@ -1,5 +1,6 @@
 <template name="bookList">
   {{#if instance.dataReady.get}}
+    <h3>{{_ 'book_list.unread_count' count=unreadBooks}}</h3>
     <ul class="list-unstyled book-list">
       {{#each books}}
         <li class="book {{#if read}}read{{/if}}">
