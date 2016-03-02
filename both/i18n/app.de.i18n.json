@@ -17,6 +17,7 @@
   "book_list": {
     "unread_count": "__count__ ungelesen Buch",
     "unread_count_plural": "__count__ ungelesen Bucher",
+    "last_added": "Das jüngste Buch, das Sie hinzugefügt haben, ist __title__ von __author__",
     "read": "Gelesen",
     "unread": "Ungelesen",
     "delete": "Löschen"

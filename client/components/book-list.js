@@ -20,7 +20,13 @@ Template.bookList.helpers({
   unreadBooks() {
     const bookCount = Books.find({ read: false }).count();
     if (bookCount) return bookCount;
+  },
+
+  lastAdded() {
+    const lastAdded = Books.findOne({}, { sort: { createdAt: -1 }});
+    if (lastAdded) return lastAdded;
   }
+
 
 });
 

@@ -17,6 +17,7 @@
   "book_list": {
     "unread_count": "__count__ unread book",
     "unread_count_plural": "__count__ unread books",
+    "last_added": "The last book you added was __title__ by __author__",
     "read": "Read",
     "unread": "Unread",
     "delete": "Delete"
