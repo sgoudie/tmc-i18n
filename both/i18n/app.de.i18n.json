@@ -1,0 +1,21 @@
+{
+  "header": {
+    "title": "Weiterlesen",
+    "description": "Bauen sie ihrer Leseliste auf."
+  },
+  "add_book": {
+    "title_label": "Titel",
+    "title_placeholder": "zB. Die Verwandlung",
+    "title_error_required": "Fügen ein Titel",
+    "author_label": "Autor",
+    "author_placeholder": "zB. Franz Kafka",
+    "author_error_required": "Fügen ein Autor",
+    "action_label": "Fügen Buch",
+    "action_loading": "Hinzufügen Buches"
+  },
+  "book_list": {
+    "read": "Gelesen",
+    "unread": "Ungelesen",
+    "delete": "Löschen"
+  }
+}

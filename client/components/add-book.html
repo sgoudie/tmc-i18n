@@ -1,15 +1,15 @@
 <template name="addBook">
   <form id="add-book" class="add-book-form">
     <div class="form-group">
-      <label for="title">Title</label>
-      <input type="text" class="form-control" name="title" placeholder="eg. Blink"/>
+      <label for="title">{{_ 'add_book.title_label'}}</label>
+      <input type="text" class="form-control" name="title" placeholder="{{_ 'add_book.title_placeholder'}}"/>
     </div>
     <div class="form-group">
-      <label for="author">Author</label>
-      <input type="text" class="form-control" name="author" placeholder="eg. Malcolm Gladwell"/>
+      <label for="author">{{_ 'add_book.author_label'}}</label>
+      <input type="text" class="form-control" name="author" placeholder="{{_ 'add_book.author_placeholder'}}"/>
     </div>
     <div class="form-group">
-      <input type="submit" class="btn btn-block btn-success" value="Add Book" data-loading-text="Add Book"/>
+      <input type="submit" class="btn btn-block btn-success" value="{{_ 'add_book.action_label'}}" data-loading-text="{{_ 'add_book.action_loading'}}"/>
     </div>
   </form>
 </template>

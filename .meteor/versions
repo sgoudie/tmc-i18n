@@ -16,7 +16,9 @@ boilerplate-generator@1.0.4
 caching-compiler@1.0.0
 caching-html-compiler@1.0.2
 callback-hook@1.0.4
+cfs:http-methods@0.0.30
 check@1.1.0
+coffeescript@1.0.11
 ddp@1.2.2
 ddp-client@1.2.1
 ddp-common@1.2.2
@@ -43,6 +45,7 @@ logging@1.0.8
 mdg:validation-error@0.2.0
 meteor@1.1.10
 meteor-base@1.0.1
+meteorspark:util@0.2.0
 minifiers@1.1.7
 minimongo@1.0.10
 mobile-experience@1.0.1
@@ -66,6 +69,7 @@ session@1.1.1
 spacebars@1.0.7
 spacebars-compiler@1.0.7
 standard-minifiers@1.0.2
+tap:i18n@1.7.0
 templating@1.1.5
 templating-tools@1.0.0
 themeteorchef:bert@2.1.0

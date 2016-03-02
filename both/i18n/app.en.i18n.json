@@ -1,0 +1,21 @@
+{
+  "header": {
+    "title": "Read More",
+    "description": "Build up your reading list."
+  },
+  "add_book": {
+    "title_label": "Title",
+    "title_placeholder": "eg. Great Expectations",
+    "title_error_required": "Add a title",
+    "author_label": "Author",
+    "author_placeholder": "eg. Charles Dickens",
+    "author_error_required": "Add an author",
+    "action_label": "Add Book",
+    "action_loading": "Adding Book"
+  },
+  "book_list": {
+    "read": "Read",
+    "unread": "Unread",
+    "delete": "Delete"
+  }
+}
