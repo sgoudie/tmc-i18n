@@ -1,0 +1,7 @@
+# Operating System
+.DS_Store
+
+# Configuration
+npm-debug.log
+node_modules
+.demeteorized
