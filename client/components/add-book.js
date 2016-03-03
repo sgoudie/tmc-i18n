@@ -11,10 +11,10 @@ Template.addBook.onRendered(function () {
     },
     messages: {
       title: {
-        required: 'Add a title',
+        required: TAPi18n.__('add_book.title_error_required'),
       },
       author: {
-        required: 'Add an author',
+        required: TAPi18n.__('add_book.author_error_required'),
       }
     },
     submitHandler(form) {

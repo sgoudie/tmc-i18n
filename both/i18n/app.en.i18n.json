@@ -12,7 +12,9 @@
     "author_placeholder": "eg. Malcolm Gladwell",
     "author_error_required": "Add an author",
     "action_label": "Add Book",
-    "action_loading": "Adding Book"
+    "action_loading": "Adding Book",
+    "action_error": "Couldn't add book",
+    "action_success": "__title__ added to your list"
   },
   "book_list": {
     "unread_count": "__count__ unread book",
@@ -21,5 +23,9 @@
     "read": "Read",
     "unread": "Unread",
     "delete": "Delete"
+  },
+  "footer": {
+    "attribution": "This is a demo of i18n with Meteor by <a href='http://samuelgoudie.co.uk'>S.Goudie</a> co-founder of <a href='http://doopoll.co'>doopoll</a>.",
+    "article_link": "Read the snippet on The Meteor Chef"
   }
 }

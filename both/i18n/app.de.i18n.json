@@ -12,7 +12,9 @@
     "author_placeholder": "zB. Franz Kafka",
     "author_error_required": "Sie müssen ein Autor hinzufügen",
     "action_label": "Buch hinzufügen",
-    "action_loading": "Buch wird hinzufügt"
+    "action_loading": "Buch wird hinzufügt",
+    "action_error": "Buch wird nicht hinzugefügt",
+    "action_success": "__title__ zur Liste hingefugt"
   },
   "book_list": {
     "unread_count": "__count__ ungelesen Buch",
@@ -21,5 +23,9 @@
     "read": "Gelesen",
     "unread": "Ungelesen",
     "delete": "Löschen"
+  },
+  "footer": {
+    "attribution": "Dieses ist ein Vorführung von i18n mit Meteor von <a href='http://samuelgoudie.co.uk'>S.Goudie</a> Mitgründer von <a href='http://doopoll.co'>doopoll</a>.",
+    "article_link": "Lesen die 'snippet' auf 'The Meteor Chef'"
   }
 }
