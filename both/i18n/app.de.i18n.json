@@ -1,7 +1,7 @@
 {
-  "change_language": "Sprache ändern",
+  "change_language": "Sprache wechseln",
   "header": {
-    "title": "Weiterlesen",
+    "title": "Mehr lesen",
     "description": "Bauen sie ihrer Leseliste auf."
   },
   "add_book": {
@@ -10,14 +10,14 @@
     "title_error_required": "Fügen ein Titel",
     "author_label": "Autor",
     "author_placeholder": "zB. Franz Kafka",
-    "author_error_required": "Fügen ein Autor",
-    "action_label": "Fügen Buch",
-    "action_loading": "Hinzufügen Buches"
+    "author_error_required": "Sie müssen ein Autor hinzufügen",
+    "action_label": "Buch hinzufügen",
+    "action_loading": "Buch wird hinzufügt"
   },
   "book_list": {
     "unread_count": "__count__ ungelesen Buch",
     "unread_count_plural": "__count__ ungelesen Bucher",
-    "last_added": "Das jüngste Buch, das Sie hinzugefügt haben, ist __title__ von __author__",
+    "last_added": "Das letzte Buch, dass Sie hinzugefügt haben, ist __title__ von __author__",
     "read": "Gelesen",
     "unread": "Ungelesen",
     "delete": "Löschen"
