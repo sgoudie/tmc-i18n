@@ -20,7 +20,7 @@ Template.bookList.helpers({
 
   unreadBooks() {
     const bookCount = Books.find({ read: false }).count();
-    if (bookCount) return bookCount;
+    return bookCount;
   },
 
   lastAdded() {
