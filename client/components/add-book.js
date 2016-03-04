@@ -28,7 +28,7 @@ Template.addBook.onRendered(function () {
       Meteor.call('addBook', book, (err) => {
         $submitButton.button('reset');
         if (err) {
-          Bert.alert('Adding book failed', 'warning');
+          Bert.alert(TAPi18n.__('add_book.action_error'), 'warning');
         } else {
           Bert.alert(`${book.title} added`, 'success');
           $(form).find('input[type="text"]').val('');

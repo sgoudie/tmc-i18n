@@ -25,7 +25,7 @@
     "delete": "Löschen"
   },
   "footer": {
-    "attribution": "Dieses ist ein Vorführung von i18n mit Meteor von <a href='http://samuelgoudie.co.uk'>S.Goudie</a> Mitgründer von <a href='http://doopoll.co'>doopoll</a>.",
+    "attribution": "Dieses ist ein demo von i18n mit Meteor von <a href='http://samuelgoudie.co.uk'>S.Goudie</a> Mitgründer von <a href='http://doopoll.co'>doopoll</a>.",
     "article_link": "Lesen die 'snippet' auf 'The Meteor Chef'"
   }
 }

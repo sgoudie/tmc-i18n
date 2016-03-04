@@ -11,7 +11,7 @@
         <li class="book {{#if read}}read{{/if}}">
           <h3 class="book-title">{{title}}</h3>
           <h4 class="book-title">{{author}}</h4>
-          <p>{{countBackDate createdAt}}</p>
+          <p>{{moFromNow createdAt withoutSuffix}}</p>
           <button type="button" class="btn btn-default" data-action="toggle-read">{{#unless read}}{{_ 'book_list.read'}}{{else}}{{_ 'book_list.read'}}{{/unless}}</button>
           <button type="button" class="btn btn-danger" data-action="delete-book">{{_ 'book_list.delete'}}</button>
         </li>

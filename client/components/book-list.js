@@ -4,6 +4,7 @@ Template.bookList.onCreated(function () {
     const handle = this.subscribe('book-list');
     this.dataReady.set(handle.ready());
   });
+  mo.setLocale('en');
 });
 
 Template.bookList.onRendered(function () {
