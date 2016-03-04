@@ -26,6 +26,7 @@ Template.languageSwitcher.events({
     const lang = $(e.target).data('language');
     TAPi18n.setLanguage(lang);
     mo.setLocale(lang);
+    moment.locale(lang);
   },
 
 });
